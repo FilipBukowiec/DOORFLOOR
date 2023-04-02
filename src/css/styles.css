@@ -1,0 +1,165 @@
+.works {
+  background-color: #1d1d1d;
+  text-align: center;
+  color: #fff;
+}
+
+.works h2 {
+  margin-top: 15vh;
+  color: #c7c7c7;
+}
+
+.contact > .left {
+  background-image: url(../img/contact.jpg);
+  background-size: cover;
+}
+
+.contact > .right {
+  background-color: #fff;
+}
+
+.aboutus > .left {
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutus > .right {
+  background-color: #fff;
+}
+
+.aboutus h2 {
+  color: #1d1d1d;
+}
+
+.offer > .left {
+  background-color: white;
+}
+
+.offer > .right {
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.offer h2 {
+  color: #1d1d1d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 20px;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+hr {
+  width: 70%;
+  color: #3d9f28;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #1d1d1d;
+}
+
+.logo {
+  display: flex;
+  justify-content: left;
+  width: 40%;
+  height: 90%;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.navigation {
+  width: 50%;
+  display: flex;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation li {
+  color: #c7c7c7;
+  font-size: 1.5rem;
+  margin: 0 20px;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  transition: 0.4s;
+  justify-content: left;
+}
+
+.navigation li:hover {
+  transform: scale(1.4);
+  color: #3d9f28;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.left,
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  background-color: #1d1d1d;
+  color: #979797;
+  justify-content: center;
+  gap: 50px;
+}
+
+footer a {
+  color: #3d9f28;
+}
+
+footer i {
+  padding: 10px;
+  font-size: 2.5rem;
+  transition: 0.3s;
+}
+
+footer i:hover {
+  color: #3d9f28;
+  transform: scale(1.4);
+}
+
+.sm,
+.writeme {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */
