@@ -46,6 +46,14 @@
   color: #1d1d1d;
 }
 
+.message {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  width: 60%;
+}
+
 * {
   margin: 0;
   padding: 0;
